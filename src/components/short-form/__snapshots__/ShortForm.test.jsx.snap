@@ -1,21 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders App 1`] = `
+exports[`ShortForm component renders ShortForm 1`] = `
 <DocumentFragment>
   <form
     class="ShortForm"
   >
     <input
       type="text"
-      value=""
+      value="http://test.com"
     />
     <button>
       Submit
     </button>
   </form>
-  <p>
-     - 
-  </p>
-  <ul />
 </DocumentFragment>
 `;
