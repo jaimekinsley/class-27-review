@@ -19,9 +19,10 @@ export default class MainContainer extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
+    const { longUrl } = this.state;
     Promise.all([
-      shorten(this.state.longUrl),
-      getPageLinks(this.state.longUrl)
+      shorten(longUrl),
+      getPageLinks(longUrl)
     ])
       .then(([shortUrl, links]) => this.setState({ shortUrl, links }));
   }
