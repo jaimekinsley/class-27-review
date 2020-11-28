@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Links component renders Links 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <a
+        href="http://test.com"
+      >
+        http://test.com
+      </a>
+    </li>
+    <li>
+      <a
+        href="test2.com"
+      >
+        test2.com
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
